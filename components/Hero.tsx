@@ -24,7 +24,7 @@ const Hero = () => {
         {/* Content Section */}
         <div className="relative w-2/5 flex flex-col items-center justify-center space-y-6 text-white z-10 ml-auto">
             {/* Bulb Icon */}
-            <div className="absolute top-0 -left-30 hover:scale-100 animate-pulse">
+            <div className="absolute top-0 -left-12 hover:scale-100 animate-pulse">
                 <img
                 src="/Bulb-icon.svg"
                 alt="Bulb Icon"
@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
 
             {/* Heading */}
-            <h1 className="text-4xl md:text-5xl font-sans text-center font-extrabold max-w-4xl uppercase">
+            <h1 className="text-4xl md:text-4xl font-sans text-center font-extrabold max-w-4xl uppercase">
                 SOLVE PRESSING REAL- <br/> WORLD PROBLEMS AND TACKLE KEY CHALLENGES HOLDING BACK NIGERIAN ENGINEERING STUDENTS.  
             </h1>
 
@@ -57,11 +57,11 @@ const Hero = () => {
             </div>
 
             {/* Vector Icon */}
-            <div className="absolute bottom-5 right-10 animate-bounce">
+            <div className="absolute -bottom-5 right-0 animate-bounce">
                 <img
                     src="/vector-icon.svg" 
                     alt="Vector Icon"
-                    className="w-12 h-12 md:w-24 md:h-24"
+                    className="w-5 h-5 md:w-24 md:h-24"
                 />
             </div>
         </div>
