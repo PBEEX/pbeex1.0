@@ -57,11 +57,11 @@ const Hero = () => {
             </div>
 
             {/* Vector Icon */}
-            <div className="absolute -bottom-5 right-0 animate-bounce">
+            <div className="absolute -bottom-10 right-10">
                 <img
                     src="/vector-icon.svg" 
                     alt="Vector Icon"
-                    className="w-5 h-5 md:w-24 md:h-24"
+                    className="w-12 h-12 md:w-16 md:h-16"
                 />
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const SaveYourSpot: React.FC = () => {
   return (
-    <section className="relative bg-[radial-gradient(circle,rgba(255,90,90,1)_0%,rgba(16,37,57,1)_27%)] w-full text-center py-12 px-6 mt-5 md:px-20">
+    <section className="relative flex justify-center items-center bg-[radial-gradient(circle,rgba(255,90,90,1)_0%,rgba(16,37,57,1)_27%)] w-full text-center py-32 px-6 mt-5 md:px-20">
         {/* Decorative elements */}
         <div className="absolute top-6 left-6 md:left-16 w-64 h-64">
             <img src="/Edge-border-top.png" alt="" />
