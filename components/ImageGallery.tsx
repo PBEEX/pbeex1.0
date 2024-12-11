@@ -33,7 +33,7 @@ const Slideshow = () => {
           }}
           transition={{
             // Adjusted speed for faster motion
-            duration: 30,
+            duration: 15,
             ease: "linear",
             repeat: Infinity,
             repeatType: "loop",
@@ -67,7 +67,7 @@ const Slideshow = () => {
         }}
         transition={{
           // Adjusted speed for smooth motion
-          duration: 25,
+          duration: 20,
           ease: "linear",
           repeat: Infinity,
           repeatType: "loop",
